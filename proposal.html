@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>👉👈</h1>
+    <p>Dear Anju,</p>
+    <p>I have admired you from afar for a long time, and I can't keep my feelings hidden any longer. You bring joy and light into my life every day, and I can't imagine my future without you by my side.</p>
+    <p>Will you make me the happiest person in the world by agreeing to spend your life with me?</p>
+    <form action="/reply" method="post">
+        <label for="response">Your Response:</label><br>
+        <textarea id="response" name="response" required></textarea><br><br>
+        <input type="submit" value="Submit Response">
+    </form>
+</body>
+</html>
